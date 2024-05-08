@@ -60,7 +60,7 @@ function App() {
         }).catch(error => console.log("error", error));
     }
 
-  }, [apiUrl, apiUrlHeader]);
+  }, [userEmail,apiUrl, apiUrlHeader]);
   console.log("showDropDown->>>", showDropDown);
   const handleSelectChange = (event) => {
     console.log(event.target.value);
