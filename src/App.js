@@ -91,7 +91,7 @@ function App() {
         })
         .catch(error => console.log("error", error));
     }
-  }, [labelArray]);
+  }, [labelArray,userEmail,apiUrlHeader]);
   console.log("apiUrlDataapiUrlDataapiUrlData->>>", showData);
   return (
     <div className="App">
